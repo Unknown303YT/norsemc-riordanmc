@@ -25,7 +25,7 @@ displayName="The Norse Mythology Mod for Minecraft" #mandatory
 # A URL to query for updates for this mod. See the JSON update specification https://mcforge.readthedocs.io/en/latest/gettingstarted/autoupdate/
 #updateJSONURL="https://change.me.example.invalid/updates.json" #optional
 # A URL for the "homepage" for this mod, displayed in the mod UI
-#displayURL="https://change.me.to.your.mods.homepage.example.invalid/" #optional
+displayURL="https://modrinth.com/mod/norsemc-riordanmc" #optional
 # A file name (in the root of the mod JAR) containing a logo for display
 logoFile="examplemod.png" #optional
 # A text field displayed in the mod UI
@@ -34,7 +34,13 @@ credits="Thank you Rick Riordan, for making the Magnus Chase books." #optional
 authors="Developed by Aidan Riverstone. Co-Designed by Aidan Riverstone and his sister, Gifted Goose" #optional
 # The description text for the mod (multi line!) (#mandatory)
 description='''
-The very first version of NorseMC, the first mod in the RiordanMC Series. This one contains Mjolnir. Have fun!
+The very first version of NorseMC, the first mod in the RiordanMC Series.
+
+This one contains Mjolnir. Have fun!
+
+Mod Features: Mjolnir (Thors Hammer): Call down lightning and explosions! Right click for lightning, Left click for one-shot.
+
+This mod is still in Alpha, so may have some bugs.
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.norsemc]] #optional
