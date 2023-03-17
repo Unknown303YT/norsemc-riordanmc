@@ -1,4 +1,4 @@
-package norsemod.BoneSteel;
+package norsemod;
 
 
 import net.minecraft.world.item.CreativeModeTab;
