@@ -29,7 +29,7 @@ public class NorseMod
     public static ThunderMallet hesnotblonde; // Mjolnir
     //public static Tier itshistorical; // Bone Steel Tier
     public static Tier toomanygods; // God Tier
-    //public static CustomItem blood;
+    public static CustomItem blood;
 
     public NorseMod() {
         // Register the setup method for modloading
@@ -44,13 +44,13 @@ public class NorseMod
         //boneSteel = new BoneSteel();
         //redGold = new Currency();
         hesnotblonde = new ThunderMallet();
-        //blood = new CustomItem();
+        blood = new CustomItem();
 
         // ****************** REGISTER ITEMS ******************
         //Codakid.registerItem(boneSteel, "bone_steel");
         //Codakid.registerItem(redGold, "red_gold");
         Codakid.registerItem(hesnotblonde, "mjolnir");
-        //Codakid.registerItem(blood, "blood");
+        Codakid.registerItem(blood, "blood");
 
     }
 
