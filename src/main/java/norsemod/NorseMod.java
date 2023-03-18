@@ -27,7 +27,7 @@ public class NorseMod
     //public static BoneSteel boneSteel;
     //public static Currency redGold;
     public static ThunderMallet hesnotblonde; // Mjolnir
-//    public static Tier itshistorical; // Bone Steel Tier
+    //public static Tier itshistorical; // Bone Steel Tier
     public static Tier toomanygods; // God Tier
     //public static CustomItem blood;
 
@@ -37,7 +37,7 @@ public class NorseMod
         Codakid.ENTITIES.register(modEventBus);
 
         //*********** INITIALIZE MATERIALS ******************
-//        itshistorical = Codakid.addTier(0, 0, 0, 0, 0)
+        //itshistorical = Codakid.addTier(0, 0, 0, 0, 0);
         toomanygods = Codakid.addTier(1999999999, 1999999999, 1999999999, 1999999999, 50);
 
         //*********** INITIALIZE VARIABLES ******************
