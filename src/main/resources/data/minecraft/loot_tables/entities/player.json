@@ -2,34 +2,16 @@
   "type": "minecraft:entity",
   "pools": [
   	{
-  	  "rolls": 1,
+  	  "rolls": 3,
   	  "entries": [
   	    {
   	  	  "type": "item",
-  	  	  "name": "norsemc:blood",
-          "functions": [
-            {
-              "function": "set_lore",
-              "replace": true,
-              "lore": [
-                [
-                  {"text":"§rKilled by §r§e"},
-                  {"selector":"@s"}
-                ]
-              ],
-              "entity": "killer_player"
-            },
-            {
-              "function": "fill_player_head",
-              "entity": "this"
-            }
-          ],
-					"conditions": [
-						{
-							"condition": "killed_by_player"
-						}
-					]
-  	    }
+  	  	  "name": "norsemc:blood"
+  	    },
+        {
+          "type": "item",
+          "name": "minecraft:air"
+        }
   	  ]
   	}
   ]
