@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "iii",
+      "iii",
+      " s "
+      
+    ],
+    "key": {
+      "i": {
+        "item": "norsemc:bone_steel"
+      },
+      "s": {
+        "item": "minecraft:blaze_rod"
+      }  
+    },
+    "result": {
+      "item": "norsemc:mjolnir"
+    }
+  }

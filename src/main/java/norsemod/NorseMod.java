@@ -24,7 +24,7 @@ public class NorseMod
     private static final Logger LOGGER = LogManager.getLogger();
 
     //*********** DECLARE VARIABLES ******************
-    //public static BoneSteel boneSteel;
+    public static BoneSteel boneSteel;
     //public static Currency redGold;
     public static ThunderMallet hesnotblonde; // Mjolnir
     //public static Tier itshistorical; // Bone Steel Tier
@@ -41,13 +41,13 @@ public class NorseMod
         toomanygods = Codakid.addTier(1999999999, 1999999999, 1999999999, 1999999999, 50);
 
         //*********** INITIALIZE VARIABLES ******************
-        //boneSteel = new BoneSteel();
+        boneSteel = new BoneSteel();
         //redGold = new Currency();
         hesnotblonde = new ThunderMallet();
         blood = new CustomItem();
 
         // ****************** REGISTER ITEMS ******************
-        //Codakid.registerItem(boneSteel, "bone_steel");
+        Codakid.registerItem(boneSteel, "bone_steel");
         //Codakid.registerItem(redGold, "red_gold");
         Codakid.registerItem(hesnotblonde, "mjolnir");
         Codakid.registerItem(blood, "blood");
