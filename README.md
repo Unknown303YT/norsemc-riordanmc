@@ -1,5 +1,3 @@
-#NorseMC
-
 The very first version of NorseMC, the first mod in the RiordanMC Series.
 
 This one contains Mjolnir. Have fun!
