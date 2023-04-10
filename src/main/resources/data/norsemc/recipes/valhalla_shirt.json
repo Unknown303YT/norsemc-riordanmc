@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "fif",
+    "f f",
+    "f f"
+    
+  ],
+  "key": {
+    "f": {
+      "item": "norsemc:fabric"
+    },
+    "i": {
+      "item": "norsemc:bone_steel"
+    }
+  },
+  "result": {
+    "item": "norsemc:valhalla_shirt",
+    "count": 1
+  }
+}

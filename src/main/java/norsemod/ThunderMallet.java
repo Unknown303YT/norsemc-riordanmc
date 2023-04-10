@@ -13,11 +13,12 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.level.Explosion;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.phys.HitResult;
+import norsemod.HelperFiles.ModHelper;
 
 public class ThunderMallet extends SwordItem {
 
     public ThunderMallet() {
-        super(NorseMod.toomanygods, 1, 1F, new Properties().tab(CreativeModeTab.TAB_COMBAT));
+        super(NorseMod.toomanygods, 0, 5000F, new Properties().tab(CreativeModeTab.TAB_COMBAT));
     }
 
     @Override
@@ -28,10 +29,10 @@ public class ThunderMallet extends SwordItem {
         HitResult hit = player.pick(200D, player.getEyeHeight(), false);
 
         level.explode(player, hit.getLocation().x, hit.getLocation().y, hit.getLocation().z, 5F, Explosion.BlockInteraction.BREAK);
-        Codakid.spawnEntity(level, new BlockPos(hit.getLocation()), new LightningBolt(EntityType.LIGHTNING_BOLT, level));
-        Codakid.spawnEntity(level, new BlockPos(hit.getLocation()), new LightningBolt(EntityType.LIGHTNING_BOLT, level));
-        Codakid.spawnEntity(level, new BlockPos(hit.getLocation()), new LightningBolt(EntityType.LIGHTNING_BOLT, level));
-        Codakid.spawnEntity(level, new BlockPos(hit.getLocation()), new LightningBolt(EntityType.LIGHTNING_BOLT, level));
+        ModHelper.spawnEntity(level, new BlockPos(hit.getLocation()), new LightningBolt(EntityType.LIGHTNING_BOLT, level));
+        ModHelper.spawnEntity(level, new BlockPos(hit.getLocation()), new LightningBolt(EntityType.LIGHTNING_BOLT, level));
+        ModHelper.spawnEntity(level, new BlockPos(hit.getLocation()), new LightningBolt(EntityType.LIGHTNING_BOLT, level));
+        ModHelper.spawnEntity(level, new BlockPos(hit.getLocation()), new LightningBolt(EntityType.LIGHTNING_BOLT, level));
 
         return InteractionResultHolder.success(hammer);
 

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "i i",
+    "iii",
+    "iii"
+    
+  ],
+  "key": {
+    "i": {
+      "item": "norsemc:bone_steel"
+    }    
+  },
+  "result": {
+    "item": "norsemc:bs_chestplate",
+    "count": 1
+  }
+}
