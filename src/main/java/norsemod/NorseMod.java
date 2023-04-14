@@ -29,7 +29,7 @@ public class NorseMod
 {
     public static final String MODID = "norsemc";
     public static final String MODNAME = "The Norse Mythology Mod for Minecraft";
-    public static String VERSION = "1.0.0";
+    public static String VERSION = "1.6.0";
 
     public static NorseMod instance;
     private static final Logger LOGGER = LogManager.getLogger();

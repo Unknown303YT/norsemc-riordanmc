@@ -1,24 +1,21 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "fdf",
-    "fif",
-    "fff"
+    " i ",
+    " s ",
+    " s "
     
   ],
   "key": {
-    "f": {
-      "item": "norsemc:fabric"
-    },
     "i": {
       "item": "norsemc:bone_steel"
     },
-    "d": {
-      "item": "minecraft:green_dye"
+    "s": {
+      "item": "minecraft:stick"
     }
   },
   "result": {
-    "item": "norsemc:valhalla_shirt",
+    "item": "norsemc:bs_shovel",
     "count": 1
   }
 }

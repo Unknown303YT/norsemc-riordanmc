@@ -2,7 +2,7 @@
   "type": "minecraft:entity",
   "pools": [
   	{
-  	  "rolls": 3,
+  	  "rolls": 1,
   	  "entries": [
   	    {
   	  	  "type": "item",
@@ -13,15 +13,6 @@
           "name": "minecraft:air"
         }
   	  ]
-  	},
-	  {
-		"rolls": 1,
-		"entries": [
-		  {
-			"type": "minecraft:item",
-			"name": "norsemc:fabric"
-		  }
-		]
-	  }
+  	}
   ]
 }

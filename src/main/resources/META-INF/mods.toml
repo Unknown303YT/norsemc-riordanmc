@@ -11,7 +11,7 @@ loaderVersion="[38,)" #mandatory This is typically bumped every Minecraft versio
 # Review your options at https://choosealicense.com/. All rights reserved is the default copyright stance, and is thus the default here.
 license="All rights reserved"
 # A URL to refer people to when problems occur with this mod
-#issueTrackerURL="https://change.me.to.your.issue.tracker.example.invalid/" #optional
+issueTrackerURL="https://github.com/AidanR8459/norsemc/issues" #optional
 # A list of mods - how many allowed here is determined by the individual mod loader
 [[mods]] #mandatory
 # The modid of the mod
@@ -19,9 +19,9 @@ modId="norsemc" #mandatory
 # The version number of the mod - there's a few well known ${} variables useable here or just hardcode it
 # ${file.jarVersion} will substitute the value of the Implementation-Version as read from the mod's JAR file metadata
 # see the associated build.gradle script for how to populate this completely automatically during a build
-version="${1.0.0}" #mandatory
+version="${1.6}" #mandatory
  # A display name for the mod
-displayName="The Norse Mythology Mod for Minecraft" #mandatory
+displayName="NorseMC" #mandatory
 # A URL to query for updates for this mod. See the JSON update specification https://mcforge.readthedocs.io/en/latest/gettingstarted/autoupdate/
 updateJSONURL="https://raw.githubusercontent.com/AidanR8459/aidanr8459-files/main/RiordanMC/NorseMC/update.json" #optional
 # A URL for the "homepage" for this mod, displayed in the mod UI
@@ -35,12 +35,15 @@ authors="Developed by Aidan Riverstone. Co-Designed by Aidan Riverstone and his 
 # The description text for the mod (multi line!) (#mandatory)
 description='''
 This is NorseMC, the first mod in the RiordanMC Series.
+It adds items from Norse Mythology into Minecraft.
 
 Mod Features:
 Mjolnir (Thors Hammer): Call down lightning and explosions! Right click for lightning, Left click for one-shot. Now Craftable. Recipe in images on website.
 Blood: Drops when a player dies. Used to craft Bone Steel.
 Bone Steel: A new material. Crafting recipe in images on website.
 Bone Steel Weapons and Armor: Better than Netherite! Armor gives you buffs when wearing it.
+Red Gold: Currently has no use, but it is the currency of the Gods.
+Fabric: Used to make the Hotel Valhalla Jeans and T-Shirt. Crafted using 1 white wool.
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.norsemc]] #optional

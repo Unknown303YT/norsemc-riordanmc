@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "fif",
-    "f f",
+    "fdf",
     "f f"
     
   ],
@@ -12,6 +12,9 @@
     },
     "i": {
       "item": "norsemc:bone_steel"
+    },
+    "d": {
+      "item": "minecraft:blue_dye"
     }
   },
   "result": {
