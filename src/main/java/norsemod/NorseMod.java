@@ -28,7 +28,7 @@ import org.apache.logging.log4j.Logger;
 public class NorseMod
 {
     public static final String MODID = "norsemc";
-    public static final String MODNAME = "The Norse Mythology Mod for Minecraft";
+    public static final String MODNAME = "NorseMC";
     public static String VERSION = "1.6.0";
 
     public static NorseMod instance;
