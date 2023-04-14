@@ -36,7 +36,7 @@ public class NorseMod
 
     //*********** DECLARE VARIABLES ******************
     public static CustomMaterial boneSteel;
-    public static RedGold redGold;
+    public static CustomItem redGold;
     public static Tier itshistorical; // Bone Steel Tier
     public static Tier toomanygods; // God Tier
     public static ThunderMallet hesnotblonde; // Mjolnir
