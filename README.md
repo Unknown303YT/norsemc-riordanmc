@@ -1,5 +1,6 @@
-This is NorseMC, the first mod in the RiordanMC Series.<br>
-It adds items from Norse Mythology into Minecraft.<br>
+# NorseMC
+The first mod in the RiordanMC Series.<br><br>
+It adds items, blocks, materials, armor and more from Norse Mythology into Minecraft.<br>
 <br>
 Mod Features:<br>
 Mjolnir (Thors Hammer): Call down lightning and explosions! Right click for lightning, Left click for one-shot. Now Craftable. Recipe in images on website.<br>
