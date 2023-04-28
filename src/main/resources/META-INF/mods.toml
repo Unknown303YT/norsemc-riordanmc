@@ -27,7 +27,7 @@ updateJSONURL="https://raw.githubusercontent.com/AidanR8459/aidanr8459-files/mai
 # A URL for the "homepage" for this mod, displayed in the mod UI
 displayURL="https://modrinth.com/mod/norsemc-riordanmc" #optional
 # A file name (in the root of the mod JAR) containing a logo for display
-logoFile="norsemc.png" #optional
+logoFile="logo.png" #optional
 # A text field displayed in the mod UI
 credits="Thank you Rick Riordan, for making the Magnus Chase books." #optional
 # A text field displayed in the mod UI
