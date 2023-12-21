@@ -1,22 +1,4 @@
 {
-  "item.norsemc.bone_steel": "Bone Steel Ingot",
-  "item.norsemc.red_gold": "Red Gold",
-  "item.norsemc.mjolnir": "Mjolnir",
-  "item.norsemc.blood": "Bottle of Blood",
-
-  "item.norsemc.bs_pickaxe": "Bone Steel Pickaxe",
-  "item.norsemc.bs_sword": "Bone Steel Sword",
-  "item.norsemc.bs_axe": "Bone Steel Axe",
-  "item.norsemc.bs_shovel": "Bone Steel Shovel",
-  "item.norsemc.bs_hoe": "Bone Steel Hoe",
-
-  "item.norsemc.fabric": "Fabric",
-
-  "item.norsemc.bs_helmet": "Bone Steel Helmet",
-  "item.norsemc.bs_chestplate": "Bone Steel Chestplate",
-  "item.norsemc.bs_leggings": "Bone Steel Chausses",
-  "item.norsemc.bs_boots": "Bone Steel Boots",
-
-  "item.norsemc.valhalla_shirt": "Hotel Valhalla T-Shirt",
-  "item.norsemc.valhalla_jeans": "Hotel Valhalla Jeans"
+  "creativetab.norsemc.norse_tab": "NorseMC Items",
+  "item.norsemc.mjolnir": "Mjolnir"
 }

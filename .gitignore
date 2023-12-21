@@ -21,5 +21,11 @@ build
 eclipse
 run
 
+# custom
+run/
+run-data/
+server/
+.idea/
+
 # Files from Forge MDK
 forge*changelog.txt
