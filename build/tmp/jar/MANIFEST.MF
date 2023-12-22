@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Specification-Title: norsemc
+Specification-Vendor: Unknown_303YT, GiftedGoose111
+Specification-Version: 1
+Implementation-Title: NorseMC
+Implementation-Version: 0.0.1-1.20.1
+Implementation-Vendor: Unknown_303YT, GiftedGoose111
+Implementation-Timestamp: 2023-12-21T16:43:00+1030
+
