@@ -2,6 +2,8 @@ package com.riverstone.unknown303.norsemod;
 
 import com.mojang.logging.LogUtils;
 import com.riverstone.unknown303.norsemod.blocks.ModBlocks;
+import com.riverstone.unknown303.norsemod.fluid.ModFluidTypes;
+import com.riverstone.unknown303.norsemod.fluid.ModFluids;
 import com.riverstone.unknown303.norsemod.items.ModCreativeTabs;
 import com.riverstone.unknown303.norsemod.items.ModItems;
 import net.minecraftforge.api.distmarker.Dist;
@@ -27,6 +29,10 @@ public class NorseMod {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+
+        ModFluidTypes.register(modEventBus);
+        ModFluids.register(modEventBus);
+
         ModCreativeTabs.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
