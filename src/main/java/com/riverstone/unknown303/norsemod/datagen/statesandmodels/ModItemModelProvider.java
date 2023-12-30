@@ -18,9 +18,11 @@ public class ModItemModelProvider extends ItemModelProvider {
     @Override
     protected void registerModels() {
         simpleItem(ModItems.LOGO);
+        simpleItem(ModItems.BLOOD_BUCKET);
+        simpleItem(ModItems.BLOOD_BOTTLE);
     }
 
-    private ItemModelBuilder simpleItem(RegistryObject<Item> item) {
+    private ItemModelBuilder simpleItem(RegistryObject<? extends Item> item) {
         return withExistingParent(item.getId().getPath(),
                 new ResourceLocation("item/generated")).texture("layer0",
                 new ResourceLocation(NorseMod.MOD_ID,"item/" + item.getId().getPath()));

@@ -2,6 +2,7 @@ package com.riverstone.unknown303.norsemod.fluid;
 
 import com.riverstone.unknown303.norsemod.NorseMod;
 import com.riverstone.unknown303.norsemod.blocks.ModBlocks;
+import com.riverstone.unknown303.norsemod.items.ModItems;
 import net.minecraft.world.level.material.FlowingFluid;
 import net.minecraft.world.level.material.Fluid;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -21,7 +22,7 @@ public class ModFluids {
 
     public static final ForgeFlowingFluid.Properties BLOOD_FLUID_PROPERTIES = new ForgeFlowingFluid.Properties(
             ModFluidTypes.BLOOD_FLUID_TYPE, SOURCE_BLOOD, FLOWING_BLOOD)
-            .slopeFindDistance(2).levelDecreasePerBlock(13).block(ModBlocks.BLOOD_BLOCK).bucket();
+            .slopeFindDistance(2).levelDecreasePerBlock(5).block(ModBlocks.BLOOD_BLOCK).bucket(ModItems.BLOOD_BUCKET);
 
     public static void register(IEventBus eventBus) {
         FLUIDS.register(eventBus);

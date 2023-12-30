@@ -16,7 +16,7 @@ public class ModBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, NorseMod.MOD_ID);
 
     public static final RegistryObject<LiquidBlock> BLOOD_BLOCK = BLOCKS.register("blood_block",
-            () -> new LiquidBlock(ModFluids.SOURCE_BLOOD, BlockBehaviour.Properties.copy(Blocks.WATER)));
+            () -> new LiquidBlock(ModFluids.SOURCE_BLOOD, BlockBehaviour.Properties.copy(Blocks.WATER).noLootTable()));
 
     public static void register(IEventBus eventBus) {
         BLOCKS.register(eventBus);

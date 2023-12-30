@@ -6,6 +6,8 @@ import com.riverstone.unknown303.norsemod.fluid.ModFluidTypes;
 import com.riverstone.unknown303.norsemod.fluid.ModFluids;
 import com.riverstone.unknown303.norsemod.items.ModCreativeTabs;
 import com.riverstone.unknown303.norsemod.items.ModItems;
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
+import net.minecraft.client.renderer.RenderType;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -60,7 +62,8 @@ public class NorseMod {
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
-            // Some client setup code
+            ItemBlockRenderTypes.setRenderLayer(ModFluids.SOURCE_BLOOD.get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(ModFluids.FLOWING_BLOOD.get(), RenderType.translucent());
         }
     }
 }
