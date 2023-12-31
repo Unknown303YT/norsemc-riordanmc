@@ -18,9 +18,10 @@ public class ModCreativeTabs {
                     () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.LOGO.get()))
                             .title(Component.translatable("creativetab.norsemc.norse_tab"))
                             .displayItems(((pParameters, pOutput) -> {
-                                pOutput.accept(ModItems.MJOLNIR.get());
+                                pOutput.accept(ModItems.BONE_STEEL_INGOT.get());
                                 pOutput.accept(ModItems.BLOOD_BUCKET.get());
                                 pOutput.accept(ModItems.BLOOD_BOTTLE.get());
+                                pOutput.accept(ModItems.MJOLNIR.get());
                             }))
                             .build());
 

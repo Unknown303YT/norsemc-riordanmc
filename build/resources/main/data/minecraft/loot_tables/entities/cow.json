@@ -85,6 +85,19 @@
           "name": "minecraft:air"
         }
       ]
+    },
+    {
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bone"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:air"
+        }
+      ]
     }
   ]
 }

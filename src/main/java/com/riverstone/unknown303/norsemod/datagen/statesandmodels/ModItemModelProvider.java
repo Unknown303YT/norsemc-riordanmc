@@ -20,6 +20,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.LOGO);
         simpleItem(ModItems.BLOOD_BUCKET);
         simpleItem(ModItems.BLOOD_BOTTLE);
+        simpleItem(ModItems.BONE_STEEL_INGOT);
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<? extends Item> item) {

@@ -14,14 +14,27 @@
         }
   	  ]
   	},
-	  {
-		"rolls": 1,
+	{
+		"rolls": 3,
 		"entries": [
-		  {
-			"type": "minecraft:item",
-			"name": "norsemc:fabric"
-		  }
+			{
+				"type": "minecraft:item",
+				"name": "minecraft:bone"
+			},
+			{
+				"type": "minecraft:item",
+				"name": "minecraft:air"
+			}
 		]
-	  }
+	},
+	{
+		"rolls": 2,
+		"entries": [
+			{
+				"type": "minecraft:item",
+				"name": "norsemc:fabric"
+		  	}
+		]
+	}
   ]
 }

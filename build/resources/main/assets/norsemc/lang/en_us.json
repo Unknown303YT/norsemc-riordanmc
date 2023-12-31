@@ -1,6 +1,10 @@
 {
   "creativetab.norsemc.norse_tab": "NorseMC Items",
+  "item.norsemc.bone_steel": "Bone Steel Ingot",
   "item.norsemc.mjolnir": "Mjolnir",
   "item.norsemc.blood_bucket": "Bucket of Blood",
-  "item.norsemc.blood_bottle": "Bottle of Blood"
+  "item.norsemc.blood_bottle": "Bottle of Blood",
+
+  "item.norsemc.mjolnir.tooltip.line1": "Harness the Power of",
+  "item.norsemc.mjolnir.tooltip.line2": "the God of Thunder!!!"
 }

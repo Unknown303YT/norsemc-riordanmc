@@ -17,7 +17,7 @@ license="All Rights Reserved"
 # The modid of the mod
 modId="norsemc" #mandatory
 # The version number of the mod
-version="0.1.0-1.20.1" #mandatory
+version="0.2.0-1.20.1" #mandatory
 # A display name for the mod
 displayName="NorseMC" #mandatory
 # A URL to query for updates for this mod. See the JSON update specification https://docs.minecraftforge.net/en/latest/misc/updatechecker/

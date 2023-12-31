@@ -34,6 +34,25 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .requires(Items.BUCKET)
                 .unlockedBy(getHasName(ModItems.BLOOD_BOTTLE.get()), has(ModItems.BLOOD_BOTTLE.get()))
                 .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.BONE_STEEL_INGOT.get())
+                .pattern("bbb")
+                .pattern("bIb")
+                .pattern("BBB")
+                .define('B', ModItems.BLOOD_BOTTLE.get())
+                .define('b', Items.BONE_MEAL)
+                .define('I', Items.IRON_INGOT)
+                .unlockedBy(getHasName(ModItems.BLOOD_BOTTLE.get()), has(ModItems.BLOOD_BOTTLE.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.MJOLNIR.get())
+                .pattern("III")
+                .pattern("III")
+                .pattern(" S ")
+                .define('I', ModItems.BONE_STEEL_INGOT.get())
+                .define('S', Items.BLAZE_ROD)
+                .unlockedBy(getHasName(ModItems.BONE_STEEL_INGOT.get()), has(ModItems.BONE_STEEL_INGOT.get()))
+                .save(pWriter);
     }
 
     protected static void oreSmelting(Consumer<FinishedRecipe> pFinishedRecipeConsumer, List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult, float pExperience, int pCookingTIme, String pGroup) {
