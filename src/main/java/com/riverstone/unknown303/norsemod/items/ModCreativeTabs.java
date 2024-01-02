@@ -22,6 +22,11 @@ public class ModCreativeTabs {
                                 pOutput.accept(ModItems.BLOOD_BUCKET.get());
                                 pOutput.accept(ModItems.BLOOD_BOTTLE.get());
                                 pOutput.accept(ModItems.MJOLNIR.get());
+                                pOutput.accept(ModItems.RED_GOLD.get());
+
+                                pOutput.accept(ModItems.FABRIC.get());
+                                pOutput.accept(ModItems.VALHALLA_SHIRT.get());
+                                pOutput.accept(ModItems.VALHALLA_JEANS.get());
                             }))
                             .build());
 
